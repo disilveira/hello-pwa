@@ -1,4 +1,6 @@
-<form action="/action_page.php" style="margin-top: 67px">
+<h4 style="margin-top: 67px">Cadastro</h4>
+<p><i>Cadastro de novo registro</i></p>
+<form action="/action_page.php">
     <div class="form-group">
         <label for="email">Email address:</label>
         <input type="email" class="form-control" placeholder="Enter email" id="email">
