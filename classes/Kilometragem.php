@@ -32,4 +32,18 @@ class Kilometragem {
         }
     }
 
+    public function cadastrarKilometragem(){
+        try {
+            $stmt = $this->pdo->prepare("INSERT INTO kilometragem (nome_motorista, km) VALUES 
+                (:nome_motorista, :km)");
+            $param = array(
+                ":nome_motorista" => $this->nome_motorista,
+                ":km" => $this->km
+            );
+            return $stmt->execute($param);
+        } catch (PDOException $exc) {
+            echo get_class($this).": {$exc->getMessage()}";
+        }
+    }
+
 }

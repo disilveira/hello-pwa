@@ -1,18 +1,13 @@
 <h4 style="margin-top: 67px">Cadastro</h4>
 <p><i>Cadastro de novo registro</i></p>
-<form action="/action_page.php">
+<form method="POST" action="controllers/KilometragemController.php?funcao=cadastroKM">
     <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" placeholder="Enter email" id="email">
+        <label for="nome_motorista">Nome:</label>
+        <input type="text" name="nome_motorista" id="nome_motorista" class="form-control">
     </div>
     <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        <label for="km">KM:</label>
+        <input type="number" name="km" id="km" class="form-control">
     </div>
-    <div class="form-group form-check">
-        <label class="form-check-label">
-            <input class="form-check-input" type="checkbox"> Remember me
-        </label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
 </form>

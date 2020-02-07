@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-	<?php require_once('includes/autoload.php'); ?>
 	<?php require_once('includes/head.php'); ?>
 <body>
 	<?php require_once('includes/nav.php'); ?>
@@ -10,11 +9,10 @@
 			if(isset($_GET['v'])){
 				require_once('views/'.$_GET['v'].'.php');
 			}else{
-				require_once('views/home.php');
+				require_once('views/kilometragem.php');
 			}
 		?>
 	</div>
-
 	<?php require_once('includes/footer.php'); ?>
 </body>
 </html>
