@@ -12,6 +12,6 @@ require_once('controllers/KilometragemController.php');
         </tr>
     </thead>
     <tbody>
-        <?php echo showKilometragem(); ?>
+        <?php echo KilometragemController::showTableKM(); ?>
     </tbody>
 </table>

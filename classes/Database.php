@@ -4,6 +4,7 @@ class Database
 {
    
     protected static $db;
+    
     private function __construct()
     {
         $db_host = "localhost";
@@ -30,11 +31,6 @@ class Database
             new Database();
         }
         return self::$db;
-    }
-
-    public static function getDatabaseName()
-    {
-        return self::$database;
     }
 
 }

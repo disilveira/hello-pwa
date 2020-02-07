@@ -5,9 +5,9 @@
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#343A40">
     <meta name="apple-mobile-web-app-title" content="PWA App">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#343A40">
     <link rel="apple-touch-icon" href="touch-icon-iphone.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-180x180.png">
