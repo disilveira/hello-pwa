@@ -7,7 +7,7 @@
     </div>
     <div class="form-group">
         <label for="km">KM:</label>
-        <input type="number" name="km" id="km" class="form-control" required>
+        <input type="number" name="km" id="km" class="form-control" pattern="\d*" required>
     </div>
     <button type="submit" class="btn btn-primary">Cadastrar</button>
 </form>
