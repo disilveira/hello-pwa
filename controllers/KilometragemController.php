@@ -22,7 +22,7 @@ class KilometragemController {
         foreach ($data as $row){
             $return .= '
                 <tr linha-km="'.$row->id.'">
-                    <td>'.$row->nome_motorista.'</td>
+                    <td>'.mb_strimwidth($row->nome_motorista, 0, 27, "...").'</td>
                     <td>'.$row->km.'</td>
                 </tr>
             ';
