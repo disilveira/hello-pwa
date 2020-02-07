@@ -36,7 +36,7 @@ class KilometragemController {
         $classe->km = $_POST['km'];
 
         if($classe->cadastrarKilometragem()){
-            header('Location: ../index.php');
+            header('Location: ../index.php?return=1');
             exit;
         }else{
             echo "Erro ao inserir os dados, tente novamente mais tarde.";

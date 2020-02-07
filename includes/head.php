@@ -1,5 +1,5 @@
 <head>
-    <title>PWA App</title>    
+    <title>PWA App</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <link rel="manifest" href="manifest.json">
@@ -21,5 +21,15 @@
     <link rel="apple-touch-startup-image" href="images/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style>
+        .pagination {
+            display: inline-flex;
+        }
+
+        div.dataTables_wrapper div.dataTables_paginate {
+            text-align: center;
+        }
+    </style>
 </head>
